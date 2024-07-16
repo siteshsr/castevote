@@ -1,18 +1,29 @@
-
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Module 4 Solution Starter</title>
-  <script src="SpeakHello.js"></script>
-  <script src="SpeakGoodBye.js"></script>
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../castvote/castvote.css">
+    <title>Voting Page</title>
 </head>
+
 <body>
-  <h1>Module 4 Solution Starter</h1>
-  <p>open console to see the output</p>
+    <div class="container">
+        <h2>Vote for Your Favorite Candidate</h2>
+        <label for="candidates">Select a candidate:</label>
+        <select id="candidates">
+            <option value=""> </option>
+            <option value="sitesh">Sitesh</option>
+            <option value="prashant">Prashant</option>
+            <option value="sumit">Sumit</option>
+            <option value="nilesh">Nilesh</option>
+            <option value="abhishek">Abhishek</option>
+        </select>
+        <button id="voteButton">Vote</button>
+        <p id="message"></p>
+    </div>
+    <script src="../castvote/castvote.js"></script>
 </body>
+
 </html>
-
-
